@@ -1,0 +1,85 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+}
+
+.navbar .logo h1 {
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section Styling */
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #f0f8ff;
+}
+
+.hero h2 {
+    font-size: 36px;
+    color: #333;
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.hero img {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.hero button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.hero button:hover {
+    background-color: #45a049;
+}
+
+/* Footer Section Styling */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
